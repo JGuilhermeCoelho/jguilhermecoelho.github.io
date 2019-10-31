@@ -6,19 +6,25 @@ body {
 }
 
 header {
-  text-align: center;
+  text-align: right;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.container {
+.home {
   max-width: 800px;
 }
 
-.name {
+h1 {
+  text-align: left;
   font-size: 5rem;
+}
+
+#name {
+  color: white;
+  background-color: #47e5bc;
 }
 
 .social-links a {
@@ -29,6 +35,5 @@ header {
 }
 
 .social-links a:hover {
-  color: grey;
+  color: #47e5bc;
 }
-
