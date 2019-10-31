@@ -2,7 +2,8 @@
 
 body {
   font-family: 'PT Mono', monospace;
-  color: grey;
+  color: white;
+  background-color: black;
 }
 
 header {
@@ -23,13 +24,12 @@ h1 {
 }
 
 #name {
-  color: white;
   background-color: #47e5bc;
 }
 
 .social-links a {
   text-decoration: none;
-  color: #222;
+  color: white;
   font-size: 2rem;
   padding: 0px 8px;
 }
